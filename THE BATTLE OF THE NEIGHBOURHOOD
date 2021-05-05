@@ -1,0 +1,24 @@
+The Battle of the Neighborhoods — Open a Spa in Toronto
+The capstone project of utilizing Folium and Foursquare APIs for IBM Data Science Professional Certificate
+ IBM Data Science Professional Certificate in Coursera
+
+The final assignment is to finish a project called the Capstone project which requests you to leverage Foursquare APIs to fetch the data from API calls and utilize the folium map library to visualize data analysis. It’s quite a good opportunity to practice data science methodology and toolset in this project.
+In this project, we will cover all phases in the data science life cycle to resolve a problem. And we will dive into the following tools/library in data science:
+•	Folium library, including choropleth map, heatmap in map view
+•	Foursquare APIs
+•	K-Means Clustering Algorithm
+•	Pandas, Numpy, Shapely
+Introduction: Business Problem
+In this project, we are going to look for an optimal location to open a spa. Specifically, this report can provide a reference for stakeholders who are interested in opening a spa in Toronto, Canada.
+Toronto, city, capital of the province of Ontario, southeastern Canada. It is the most populous city in Canada, a multicultural city, and the country’s financial and commercial centre. Its location on the northwestern shore of Lake Ontario, which forms part of the border between Canada and the United States, and its access to Atlantic shipping via the St. Lawrence Seaway and to major U.S. industrial centres via the Great Lakes have enabled Toronto to become an important international trading centre. 
+Since the second half of the 20th century the city has grown phenomenally, from a rather sedate provincial town—“Toronto the Good”—to a lively, thriving, cosmopolitan metropolitan area. Area 244 square miles (632 square km); metro. area, 2,280 square miles (5,905 square km). Pop. (2011) 2,615,060; metro. area, 5,583,064; (2016) 2,731,571; metro. area, 5,928,040.
+ Toronto is an international center of business, finance, arts, and culture, and is recognized as one of the most multicultural and cosmopolitan cities in the world. In this report, we will focus on all areas in Toronto. There are some Spas in Toronto, we will conclude where are the existing spas. Then we will use a clustering model to find similar areas in Toronto considering demographic data of each borough and region. The preferred area shall be distant from existing spas.
+We will use data science tools to fetch the raw data, visualize it then generate a few most promising areas based on the above criteria. In the meanwhile, we will also explain the advantage and traits for the candidates, so that stakeholders can make the final decision based on the analysis.
+Data
+After surveying available datasets for Toronto Neighborhoods, I chose to settle with the most three adequate datasets to start my project. As shown below each dataset contains various unique information about Toronto that will help discover the perfect spot to open a spa:
+•	https://en.wikipedia.org/w/index.php?title=List_of_postal_codes_of_Canada:_M&direction=prev&oldid=926287641
+•	https://cocl.us/Geospatial_data
+•	 https://developer.foursquare.com/docs)
+ 
+
+
